@@ -2,7 +2,7 @@
   "name": "sucrase-standalone",
   "version": "0.0.1",
   "description": "Standalon Sucrase for ES5",
-  "main": "dist/index.js",
+  "main": "dist/sucrace.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arv/sucrase-standalone.git"
@@ -21,6 +21,6 @@
     "sucrase": "^3.0.1"
   },
   "scripts": {
-    "install": "parcel build src/index.js"
+    "install": "parcel build --out-file dist/sucrase.min.js src/index.js"
   }
 }
