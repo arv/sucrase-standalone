@@ -1,0 +1,26 @@
+{
+  "name": "sucrase-standalone",
+  "version": "0.0.1",
+  "description": "Standalon Sucrase for ES5",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arv/sucrase-standalone.git"
+  },
+  "keywords": [
+    "es5",
+    "sucrase",
+    "jsx",
+    "transpiler",
+    "transformer"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "core-js": "^2.5.7",
+    "parcel-bundler": "^1.9.0",
+    "sucrase": "^3.0.1"
+  },
+  "scripts": {
+    "install": "parcel build src/index.js"
+  }
+}
